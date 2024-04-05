@@ -1,31 +1,29 @@
 # Practical-2-I-
-
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main ()
-{
-      double a;
-      double b;
-      
-      double add;
-      double sub;
-      double multi;
-      double div;
-      
-      cout << "enter two digits " << endl;
-      cin >> a >>  b ;
-      add = a + b ;
-      sub = a - b ;
-      multi = a * b ;
-      div = a / b ;
-     
-      cout << "Addition of two number is" <<add<< endl;
-      cout << "Subtraction of two number is" <<sub<< endl;
-      cout << " multiplication of number is" <<multi<< endl;
-      cout << "Divisions of two number is" <<div;   
-      
-   return 0 ;
+int main(){
   
+  double number1 ;
+  double number2 ;
+
+ cout<<"Enter first number";
+    cin>>number1 ;
   
-}  
+ cout<<"Enter second number";
+    cin>>number2;
+    
+ double addition = number1 + number2 ;
+    cout << "addition of num1 and num2 is "<< addition <<endl;
+  
+double substraction = number1 - number2 ;
+cout << "substraction of num1 and num2 is " << substraction << endl;
+    
+double multiplication = number1 * number2 ;
+    cout << "multiplication of num1 and num2 is " << multiplication << endl;
+  
+ double division = number1 / number2 ;
+    cout << "division of num1 and num2 is " << division << endl;
+
+return 0;
+}
